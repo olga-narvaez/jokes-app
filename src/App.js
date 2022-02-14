@@ -10,24 +10,27 @@ export default function App() {
       <Header />
       <main>
         <Joke
-          setup=" I got my daughter a fridge for her birthday."
-          punchline="I can't wait to see her face light up when she opens it"
+          setup="Do you know why Facebook went public?"
+          punchline="They couldn’t figure out the privacy settings!"
         />
         <Joke
           setup="How did the hacker escape the police?"
           punchline="He just ransomware!"
         />
         <Joke
-          setup="Why don't pirates travel on mountain roads?"
-          punchline="Scurvy"
+          punchline="A computer is mightier than the pen, sword, and usually the programmer"
         />
         <Joke
-          setup="Why do bees stay in the hive in the winter?"
-          punchline="Swarm."
+          setup="Why did the programmer quit his job?"
+          punchline="Because he didn't get arrays."
         />
         <Joke
-          setup="What's the best thing about Switzerland?"
-          punchline="I don't know, but the flag is a big plus!"
+          setup="0 is false and 1 is tre, right?"
+          punchline="1"
+        />
+        <Joke
+          setup="How do you tell HTML from HTML5?"
+          punchline="- Try it out in Internet Explorer.If it doesn't work it's HTML5."
         />
         <Joke punchline="A SQL query walks into a bar, walks up to two tables, and asks – Can I join you?" />
       </main>

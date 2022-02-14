@@ -8,16 +8,3 @@ export default function Joke(props) {
     </div>
   );
 }
-/**export default function Joke(props) {
-  if (!props.setup) {
-    return <h3> {props.punchline} </h3>;
-  } else {
-    return (
-      <div>
-        <h3> {props.setup} </h3>
-        <h3 className="light-text"> {props.punchline} </h3>
-      </div>
-    );
-  }
-}
- */
