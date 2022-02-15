@@ -1,67 +1,83 @@
-@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=Poppins:wght@300;600&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=Poppins:wght@300;600&display=swap");
 
 * {
-    padding: 0;
-    margin: 0;
+  padding: 0;
+  margin: 0;
 }
 
-body{
-    box-sizing: border-box;
-    font-family: 'Amatic SC', cursive;
+body {
+  box-sizing: border-box;
+  font-family: "Amatic SC", cursive;
 }
 
-main{
-    height: 80vh;
+main {
+  overflow: auto;
+  display: flex;  
+  flex-wrap: wrap;
+  justify-content: space-around;
 }
 
-.light-text{
-    font-weight: lighter;
+.light-text {
+  font-weight: lighter;
 }
 
-div{
+div {
+  display: flex;
+  flex-direction: column;
+}
+.jokes {
+  padding: 1rem;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin: 2rem;
+  width: 40%;
+}
+h3 {
+  color: #4b7fff;
+  font-size: 28px;
+  font-weight: 700;
+}
+
+.jokes p {
+  color: #979bf5;
+  font-size: 22px;
+  font-weight: 400;
+}
+
+.header {
+  height: 10vh;
+  background-color: #4b7fff;
+  color: white;
+  letter-spacing: 2px;
+  align-items: flex-end;
+  display: flex;
+  justify-content: center;
+  padding-right: 10vw;
+}
+
+.footer {
+  height: 10vh;
+  background-color: #9387f7;
+  color: white;
+  letter-spacing: 2px;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+
+.footer a {
+  text-decoration: none;
+  color: #ffc56c;
+}
+
+.reactions{
     display: flex;
-    flex-direction: column;
-}
-.jokes{
-    padding: 1rem;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    flex-wrap: wrap;
-    margin: 2rem;
-}
-h3{
-    color: #4b7fff;
-    font-size: 28px;
-    font-weight: 700;
-}
-
-.jokes p{
-    color: #979bf5;
-    font-size: 22px;
-    font-weight: 400;
-}
-
-.header{
-    height: 10vh;
-    background-color: #4b7fff;
-    color: white;
-    letter-spacing: 2px;
-    align-items: flex-end;
-    display: flex;
+    flex-direction: row;
+    gap: 10px;
     justify-content: center;
-    padding-right: 10vw;
 }
-
-.footer{
-    height: 10vh;
-    background-color: 	#9387f7;
-    color: white;
-    letter-spacing: 2px;
-    align-items: center;
-    display: flex;
-    justify-content: center;
+.reactions img{
+    height: 20px;
 }
-
-.footer a{
-    text-decoration: none;
-    color: #ffc56c;
+.reactions button {
+    border: none;
 }
