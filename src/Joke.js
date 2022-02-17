@@ -3,7 +3,7 @@ import like from "./images/like.svg";
 import dislike from "./images/dislike.svg";
 
 export default function Joke(props) {
-  console.log(props.isPun);
+
   return (
     <div className="jokes">
       {props.setup && <h3> Setup: {props.setup} </h3>}

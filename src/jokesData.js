@@ -1,0 +1,49 @@
+export default [
+    { 
+        setup: "Do you know why Facebook went public?",
+        punchline: "They couldn’t figure out the privacy settings!",
+        isPun: true,
+        upvotes: 10,
+        downvotes: 2
+    },
+    { 
+        setup: "How did the hacker escape the police?",
+        punchline: "He just ransomware!",
+        isPun: false,
+        upvotes: 5,
+        downvotes: 3
+    },
+    { 
+        punchline: "A computer is mightier than the pen, sword, and usually the programmer",
+        isPun: true,
+        upvotes: 7,
+        downvotes: 8
+    },
+    { 
+        setup: "Why did the programmer quit his job?",
+        punchline: "Because he didn't get arrays.",
+        isPun: false,
+        upvotes: 6,
+        downvotes: 2
+    },
+    { 
+        setup: "0 is false and 1 is tre, right?",
+        punchline: "1",
+        isPun: false,
+        upvotes: 2,
+        downvotes: 2
+    },
+    { 
+        setup: "How do you tell HTML from HTML5?",
+        punchline: "- Try it out in Internet Explorer.If it doesn't work it's HTML5.",
+        isPun: false,
+        upvotes: 12,
+        downvotes: 5
+    },
+    { 
+        punchline: "A SQL query walks into a bar, walks up to two tables, and asks – Can I join you?",
+        isPun: true,
+        upvotes: 4,
+        downvotes: 2
+    }
+];
